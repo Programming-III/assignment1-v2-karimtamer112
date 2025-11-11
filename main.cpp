@@ -156,6 +156,10 @@ class Course{
 
 int main(){
 
+    Course c1("CS101", "Introduction to programming", 3);
+    Instructor i1("Dr. Lina Khaled", "cs", 5);
+    Instructor i2("Omar nabil", "Infor", 2);
+
 
     return 0;
 
