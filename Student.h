@@ -3,19 +3,24 @@
 
 #include "Person.h"
 #include <string>
-#using namespace std;
-//#write student class here
+#include <iostream>
 
+using namespace std;
 
+class Student{
 
+    private:
+        
+        int yearLevel;
+        string major;
+    
+    public:
+        
+        Student(int yearLevel, string major);
+        Student();
+        ~Student();
+        void display();
 
-
-
-
-
-
-
-
-
+};
 
 #endif
